@@ -65,7 +65,7 @@ def main():
 
         # Extract StudentId dan StudentName
         ID = data['ID']
-        Name = data['Name']
+        StudentName = data['Name']
         data = data.drop(columns=['ID', 'Name'])
 
         # Load model yang dipilih
@@ -82,7 +82,7 @@ def main():
             # Menampilkan hasilnya
             result_df = pd.DataFrame({
                 'ID': ID,
-                'Name': Name,
+                'Name': StudentName,
                 'Status Prediction': prediction_labels
             })
 
