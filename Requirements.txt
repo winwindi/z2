@@ -1,0 +1,10 @@
+pandas
+numpy
+plotly
+sqlalchemy
+pytest
+scikit-learn
+imbalanced-learn
+xgboost
+pickleshare
+streamlit
